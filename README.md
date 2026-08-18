@@ -2,7 +2,7 @@
 
 A self-contained SQL project modeling a small e-commerce business — customers, products, orders, payments, and inventory — with a full suite of analytics queries covering **revenue**, **customer retention**, **cohort analysis**, and **best-sellers**.
 
-Written for **PostgreSQL** (uses `DATE_TRUNC`, `NTILE`, generated columns, and other window functions). Minor tweaks would be needed to run on MySQL/SQLite.
+
 
 ---
 
@@ -113,7 +113,7 @@ The seed data intentionally includes:
 - Two low-stock products (below `reorder_level`) to exercise inventory queries.
 - Customers spread across 7 countries and 3 segments (`regular`, `vip`, `wholesale`).
 
-Feel free to extend `seed_data.sql` with more rows — every query in this project will scale automatically.
+
 
 ---
 
