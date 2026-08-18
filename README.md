@@ -6,22 +6,6 @@ A self-contained SQL project modeling a small e-commerce business — customers,
 
 ---
 
-## Project Structure
-
-```
-project/
-├── README.md                    # This file
-├── schema.sql                   # Table definitions, constraints, indexes
-├── seed_data.sql                # ~30 orders across 20 customers & 15 products
-├── queries/
-│   ├── 01_exploration.sql       # Row counts, basic breakdowns, sanity checks
-│   ├── 02_analysis.sql          # Revenue, retention, cohort, best-seller queries
-│   └── 03_advanced_queries.sql  # RFM segmentation, cohort matrix, CLV, market basket
-├── screenshots/                 # Add screenshots of query results / dashboards here
-└── data_dictionary.md           # Full column-level reference & ER overview
-```
-
----
 
 ## Entity-Relationship Overview
 
