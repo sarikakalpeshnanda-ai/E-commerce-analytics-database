@@ -80,6 +80,8 @@ Or open any file in your SQL client (DBeaver, TablePlus, pgAdmin, DataGrip, etc.
 ### `01_exploration.sql`
 Row counts, date ranges, status/segment/category breakdowns, low-stock check — a quick first look at the data.
 
+![alt text](screenshots/query-1.png)
+
 ### `02_analysis.sql`
 The core business questions, grouped into four sections:
 
@@ -87,6 +89,8 @@ The core business questions, grouped into four sections:
 - **Retention** — new vs. repeat buyers, repeat purchase rate, purchase frequency distribution, avg. days to second order, month-over-month retained customers
 - **Cohort** — cohort sizes by signup month, retention counts by months-since-signup, retention rate %
 - **Best-sellers** — top products by revenue, top products by units sold, best-seller per category, profitability/margin leaderboard
+
+![alt text](screenshots/query-2.png)
 
 ### `03_advanced_queries.sql`
 More advanced, composite analysis:
@@ -98,7 +102,7 @@ More advanced, composite analysis:
 - **Market basket analysis** — products frequently bought together
 - **Customer ranking within country** (window functions)
 - **Inventory health** — estimated days of stock remaining based on 90-day sales velocity
-
+![alt text](screenshots/query-3.png)
 ---
 
 ## Sample Data Notes
