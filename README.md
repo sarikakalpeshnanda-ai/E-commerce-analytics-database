@@ -119,7 +119,7 @@ Feel free to extend `seed_data.sql` with more rows — every query in this proje
 
 ## Screenshots
 
-Add exported query results, ERD diagrams, or dashboard screenshots to the `screenshots/` folder to document your findings.
+
 ![alt text](screenshots/query-1.png)
 ![alt text](screenshots/query-2.png)
 ![alt text](screenshots/query-3.png)
